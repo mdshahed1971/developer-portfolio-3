@@ -1,0 +1,98 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner{
+        flex-direction: column-reverse;
+          align-items: center;
+          background-size: 450px;
+      }
+      .b-img{
+          width: 85%;
+      }
+      .b-img img{
+        width: 100%;
+      }
+      .b-content{
+        width: 76%;
+      }
+      .b-content h1{
+        font-size: 22px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+      }
+      .b-content p{
+        margin-top: 8px;
+        margin-bottom: 16px;   
+      }
+      .b-btn{
+        padding: 5px 25px;
+      }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner{
+        flex-direction: column-reverse;
+          align-items: center;
+          background-size: 450px;
+      }
+      .b-img{
+          width: 80%;
+      }
+      .b-img img{
+        width: 100%;
+      }
+      .b-content{
+        width: 76%;
+      }
+      .b-content h1{
+        font-size: 32px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+      .b-content p{
+        margin-top: 12px;
+        margin-bottom: 25px;    
+      }
+      .b-btn{
+        padding: 5px 25px;
+      }
+}
+   
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner{
+        background-size: 520px;
+    }
+    .b-content h1{
+        font-size: 30px;
+        margin-top: 16px;
+        margin-bottom: 12px;
+    }
+    .b-content p{
+        margin-top: 15px;
+        margin-bottom: 22px;
+    }
+    .b-btn{
+        padding: 6px 30px;
+    }
+    .b-img{
+        width: 55%;
+    } 
+    .b-img img{
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+  
+}
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
