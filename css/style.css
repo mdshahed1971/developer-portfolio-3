@@ -76,3 +76,41 @@ body{
     width: 90%;
 }
 /* dream end */
+/* experiences start */
+.margin{
+    margin-bottom: 20px;
+  }
+  .experiences{
+      display: flex;
+      justify-content: space-evenly;
+      background-image: url(/img/exp-bg\ \(1\).png);
+      background-repeat: no-repeat;
+      background-size: 70px;
+      margin-bottom: 100px;
+  }
+  .developer{
+      box-shadow: 10px 10px 30px gray;
+      padding: 30px;
+      border-left: 7px solid blue;
+  }
+  .developer h2{
+      font-size: 35px;
+      font-weight: 550;
+      margin-top: 20px;
+  }
+  .developer h3{
+     color: orange;
+     font-weight: 550;
+     margin-top: 20px;
+     margin-bottom: 20px;
+  }
+  .orange-border{
+      border-left: 7px solid orange;
+  }
+  /* experiences end */
+  /* footer start */
+  footer p{
+      text-align: center;
+      margin-bottom: 80px;
+  }
+  /* footer end */

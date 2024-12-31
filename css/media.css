@@ -58,6 +58,31 @@
         width: 85%;
       }
       /* dream end */
+       /* experiences start */
+       .experiences{
+        flex-direction: column;
+      }
+      .margin{
+    text-align: center;
+    font-size: 20px;
+      }
+      .developer{
+        margin-bottom: 30px;
+        padding: 22px;
+      }
+      .developer h2{
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      .developer h3{
+        margin-top: 10px;
+    margin-bottom: 10px;
+     font-size: 15px;
+      }
+      .developer p{
+        font-size: 14px;
+      }
+      /* experiences end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -96,6 +121,7 @@
       .dream{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 70px;
       }
       .dream-img{
         width: 85%;
@@ -120,6 +146,27 @@
         width: 85%;
       }
       /* dream end */
+      /* experiences start */
+      .experiences{
+        flex-direction: column;
+      }
+      .margin{
+    text-align: center;
+    font-size: 30px;
+      }
+      .developer{
+        margin-bottom: 30px;
+        padding: 22px;
+      }
+      .developer h2{
+        font-size: 30px;
+    margin-top: 15px;
+      }
+      .developer h3{
+        margin-top: 15px;
+    margin-bottom: 15px;
+      }
+      /* experiences end */
 }
    
  /* Medium devices (tablets, 768px and up) */
@@ -164,11 +211,36 @@
       width: 95%;
     }
     /* dream-content end */
+    /* developer start */
+    .developer{
+      padding: 20px;
+    }
+    .developer h2{
+    font-size: 25px;
+    margin-top: 15px;
+    }
+    .developer h3{
+      font-size: 16px;
+    }
+    .experiences {
+      justify-content: center;
+      gap: 30px;
+    }
+    .margin{
+      font-size: 30px;
+      text-align: center;
+    }
+    /* developer end */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+  /* experiences start */
+  .experiences{
+    justify-content: center;
+    gap: 30px;
+  }
+  /* experience end */
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
